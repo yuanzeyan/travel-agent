@@ -39,6 +39,7 @@ def format_plan_cli(json_text: str) -> str | None:
     start_date = data.get("start_date", "")
     end_date = data.get("end_date", "")
 
+
     lines.append("")
     lines.append("╔" + "═" * 58 + "╗")
     title = f"  🌴 {city} {start_date} ~ {end_date} 旅行计划"
