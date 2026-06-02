@@ -455,4 +455,4 @@ streamlit run app.py
 
 **根因：** `.weather-card` CSS 只定义了 `background: #E3F2FD`，未设置 `color`，Streamlit 暗色主题下文字默认白色
 
-**修复：** 添加 `color: #1a1a1a` 到 `.weather-card` 和 `.budget-card`
+**修复：** 添加 `color: #1a1a1a` 到 `.weather-card` 和 `.budget-card`中
