@@ -17,7 +17,6 @@ async def demo_stream(planner: TripPlanner, user_input: str):
     """流式输出演示 —— 实时打印 token，结束后渲染格式化计划"""
     print("=" * 60)
     print(f"🚀 正在为您规划旅行...\n输入: {user_input}\n")
-
     print("=" * 60)
 
     buffer = ""
