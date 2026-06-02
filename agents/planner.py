@@ -32,6 +32,7 @@ _TOOL_CALL_PATTERN = re.compile(r"\[TOOL_CALL:[^\]]*\]")
 
 class TripPlanner:
     """
+
     旅行规划总控智能体。
 
     架构:
